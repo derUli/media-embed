@@ -1,5 +1,5 @@
 {
-	"name": "dereuromark/media-embed",
+	"name": "deruli/media-embed",
 	"type": "library",
 	"description": "A PHP library to deal with all those media services around, parsing their URLs and embedding their audio/video content in websites.",
 	"keywords": ["media", "embed", "PHP", "iframe", "video", "audio"],
@@ -9,6 +9,11 @@
 			"name": "Mark Scherer",
 			"role": "Author",
 			"homepage": "https://www.dereuromark.de"
+		},
+		{
+			"name": "Ulrich Schmidt",
+			"role": "Developer",
+			"homepage": "https://en.ulicms.de"
 		}
 	],
 	"require": {
