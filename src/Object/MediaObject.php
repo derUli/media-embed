@@ -612,7 +612,7 @@ class MediaObject implements ObjectInterface {
 	 */
 	protected function _setDefaultParams($stub) {
 		$source = $stub['embed-src'];
-		$flashvars = (isset($stub['flashvars'])) ? $stub['flashvars'] : null;
+		$flashvars = (isset($stub['flashvars'])) ? $stub['flashvars'] : '';
 		$count = count($this->_match);
 
 		for ($i = 1; $i <= $count; $i++) {
